@@ -98,3 +98,8 @@ tasks.register('copyDocs') {
 bootJar {
     dependsOn(':copyDocs')
 }
+
+
+jar {
+    enabled = false
+}
